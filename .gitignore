@@ -3,3 +3,4 @@
 ################################################################################
 
 /TutorialEcommerce.Helpers.Tests/bin/Debug/netcoreapp2.2
+/TutorialEcommerce.Domain/obj/Debug
