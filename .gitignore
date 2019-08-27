@@ -1,0 +1,5 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/TutorialEcommerce.Helpers.Tests/bin/Debug/netcoreapp2.2
