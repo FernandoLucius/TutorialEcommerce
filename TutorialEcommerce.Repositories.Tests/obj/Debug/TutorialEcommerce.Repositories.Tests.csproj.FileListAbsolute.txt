@@ -1,6 +1,0 @@
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Repositories.Tests\bin\Debug\TutorialEcommerce.Repositories.Tests.dll
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Repositories.Tests\bin\Debug\TutorialEcommerce.Repositories.Tests.pdb
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Repositories.Tests\obj\Debug\TutorialEcommerce.Repositories.Tests.csprojAssemblyReference.cache
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Repositories.Tests\obj\Debug\TutorialEcommerce.Repositories.Tests.csproj.CoreCompileInputs.cache
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Repositories.Tests\obj\Debug\TutorialEcommerce.Repositories.Tests.dll
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Repositories.Tests\obj\Debug\TutorialEcommerce.Repositories.Tests.pdb

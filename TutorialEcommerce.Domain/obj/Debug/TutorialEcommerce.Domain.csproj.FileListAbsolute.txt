@@ -1,9 +1,0 @@
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\bin\Debug\TutorialEcommerce.Domain.dll
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\bin\Debug\TutorialEcommerce.Domain.pdb
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\obj\Debug\TutorialEcommerce.Domain.csprojAssemblyReference.cache
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\obj\Debug\TutorialEcommerce.Domain.csproj.CoreCompileInputs.cache
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\obj\Debug\TutorialEcommerce.Domain.dll
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\obj\Debug\TutorialEcommerce.Domain.pdb
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\bin\Debug\TutorialEcommerce.Helpers.dll
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\bin\Debug\TutorialEcommerce.Helpers.pdb
-C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Domain\obj\Debug\TutorialEcommerce.Domain.csproj.CopyComplete
