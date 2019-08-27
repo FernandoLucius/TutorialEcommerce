@@ -1,0 +1,6 @@
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.App\bin\Debug\TutorialEcommerce.App.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.App\bin\Debug\TutorialEcommerce.App.pdb
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.App\obj\Debug\TutorialEcommerce.App.csprojAssemblyReference.cache
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.App\obj\Debug\TutorialEcommerce.App.csproj.CoreCompileInputs.cache
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.App\obj\Debug\TutorialEcommerce.App.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.App\obj\Debug\TutorialEcommerce.App.pdb

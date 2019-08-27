@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,6 +43,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValueObject\Email.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TutorialEcommerce.Helpers\TutorialEcommerce.Helpers.csproj">
+      <Project>{5f2d0ce6-f539-4713-bf1b-b6ad11cda64e}</Project>
+      <Name>TutorialEcommerce.Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

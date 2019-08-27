@@ -1,0 +1,15 @@
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\TutorialEcommerce.Reposotories.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\TutorialEcommerce.Reposotories.pdb
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.abstractions.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.assert.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.core.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.execution.desktop.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.abstractions.xml
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.assert.xml
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.core.xml
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\bin\Debug\xunit.execution.desktop.xml
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\obj\Debug\TutorialEcommerce.Reposotories.csprojAssemblyReference.cache
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\obj\Debug\TutorialEcommerce.Reposotories.csproj.CoreCompileInputs.cache
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\obj\Debug\TutorialEcommerce.Reposotories.csproj.CopyComplete
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\obj\Debug\TutorialEcommerce.Reposotories.dll
+C:\Users\fluciusg\Desktop\Projetos\TutorialEcommerce\TutorialEcommerce.Reposotories\obj\Debug\TutorialEcommerce.Reposotories.pdb
