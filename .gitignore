@@ -4,3 +4,18 @@
 
 /TutorialEcommerce.Helpers.Tests/bin/Debug/netcoreapp2.2
 /TutorialEcommerce.Domain/obj/Debug
+/TutorialEcommerce.App/bin/Debug
+/TutorialEcommerce.App/obj/Debug
+/TutorialEcommerce.App.Tests/bin/Debug
+/TutorialEcommerce.App.Tests/obj/Debug
+/TutorialEcommerce.Domain/bin/Debug
+/TutorialEcommerce.Domain.Tests/bin/Debug
+/TutorialEcommerce.Domain.Tests/obj/Debug
+/TutorialEcommerce.Helpers/bin/Debug
+/TutorialEcommerce.Helpers/obj/Debug
+/TutorialEcommerce.Repositories.Tests/obj/Debug
+/TutorialEcommerce.Repositories.Tests/bin/Debug
+/TutorialEcommerce.Reposotories/obj/Debug
+/TutorialEcommerce.Reposotories/bin/Debug
+/TutorialEcommerce.Tests/obj/Debug
+/TutorialEcommerce.Tests/bin/Debug

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TutorialEcommerce.Domain.Enuns;
+using TutorialEcommerce.Helpers;
 
 namespace TutorialEcommerce.Domain.ValueObject
 {
@@ -43,7 +44,9 @@ namespace TutorialEcommerce.Domain.ValueObject
 
         private void SetCep(Cep cep)
         {
-            throw new NotImplementedException();
+            //if (cep.Vazio())
+            //    throw new Exception("CEP é obrigatório!");
+            Cep = cep;
         }
 
         private void SetUf(Uf? uf)
@@ -53,27 +56,33 @@ namespace TutorialEcommerce.Domain.ValueObject
 
         private void SetCidade(string cidade)
         {
-            throw new NotImplementedException();
+            Guard.ForNullOrEmptyDefaultMessage(cidade, "Cidade");
+            Logradouro = TextHelper.ToTitleCase(cidade);
         }
 
         private void SetBairro(string bairro)
         {
-            throw new NotImplementedException();
+            Guard.ForNullOrEmptyDefaultMessage(bairro, "Bairro");
+            Logradouro = TextHelper.ToTitleCase(bairro);
         }
 
         private void SetNumero(string numero)
         {
-            throw new NotImplementedException();
+            Guard.ForNullOrEmptyDefaultMessage(numero, "Número");
+            Logradouro = TextHelper.ToTitleCase(numero);
         }
 
         private void SetComplemento(string complemento)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrEmpty(complemento))
+                complemento = "";
+            Complemento = TextHelper.ToTitleCase(complemento);
         }
 
         private void SetLogradouro(string logradouro)
         {
-            throw new NotImplementedException();
+            Guard.ForNullOrEmptyDefaultMessage(logradouro, "Endereço");
+            Logradouro = TextHelper.ToTitleCase(logradouro);
         }
     }
 }
