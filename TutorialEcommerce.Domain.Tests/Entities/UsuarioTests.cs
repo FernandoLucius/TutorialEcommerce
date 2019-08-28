@@ -118,5 +118,12 @@ namespace TutorialEcommerce.Domain.Tests.Entities
             new Usuario(login, Cpf, Email, Senha, SenhaConfirmacao);
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_Senhas_Nao_Conferem()
+        {
+            new Usuario(Login, Cpf, Email, "blablabla", "patatipatata");
+        }
+
     }
 }

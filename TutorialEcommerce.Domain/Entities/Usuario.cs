@@ -39,6 +39,7 @@ namespace TutorialEcommerce.Domain.Entities
             Guard.ForNullOrEmptyDefaultMessage(confirmacaoSenha, "Confirmação da Senha");
             Guard.StringLength("Senha", senha, SenhaMinValue, SenhaMaxValue);
             Guard.StringLength("Senha", confirmacaoSenha, SenhaMinValue, SenhaMaxValue);
+            Guard.AreEqual(senha, confirmacaoSenha, "Senha e Confirmação da Senha são divergentes.");
 
             Senha = CriptografiaHelper.CriptografarSenha(senha);
         }
@@ -67,6 +68,36 @@ namespace TutorialEcommerce.Domain.Entities
             // Se tiver regras de negócio para o login, colocar aqui.
 
             Login = login;
+        }
+
+        public void AlterarSenha(string senhaAtual, string novaSenha, string confirmacaoSenha)
+        {
+            ValidarSenha(senhaAtual);
+            SetSenha(novaSenha, confirmacaoSenha);
+        }
+
+        public void AlterarSenha(Guid token, string novaSenha, string confirmacaoSenha)
+        {
+            if (!TokenAlteracaoDeSenha.Equals(token))
+                throw new Exception("Token para alteração de senha inválido!");
+
+            SetSenha(novaSenha, confirmacaoSenha);
+
+            GerarNovoTolkenAlterarSenha();
+        }
+
+        public void ValidarSenha(string senha)
+        {
+            Guard.ForNullOrEmptyDefaultMessage(senha, "Senha");
+            var senhaCriptografada = CriptografiaHelper.CriptografarSenha(senha);
+            if (!Senha.SequenceEqual(senhaCriptografada))
+                throw new Exception("Senha inválida!");
+        }
+
+        public Guid GerarNovoTolkenAlterarSenha()
+        {
+            TokenAlteracaoDeSenha = Guid.NewGuid();
+            return TokenAlteracaoDeSenha;
         }
 
         public override bool isValid()
