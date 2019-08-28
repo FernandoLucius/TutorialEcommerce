@@ -20,7 +20,7 @@ namespace TutorialEcommerce.Domain.ValueObject
 
         public const int CidadeMaxLength = 150;
 
-        public virtual string Logradouro { get; private set; }       
+        public virtual string Logradouro { get; private set; }
         public virtual string Complemento { get; private set; }
         public virtual string Numero { get; private set; }
         public virtual string Bairro { get; private set; }
@@ -44,14 +44,16 @@ namespace TutorialEcommerce.Domain.ValueObject
 
         private void SetCep(Cep cep)
         {
-            //if (cep.Vazio())
-            //    throw new Exception("CEP é obrigatório!");
+            if (cep.Vazio())
+                throw new Exception("CEP é obrigatório!");
             Cep = cep;
         }
 
         private void SetUf(Uf? uf)
         {
-            throw new NotImplementedException();
+            if (!uf.HasValue)
+                throw new Exception("Estado é obrigatório");
+            Uf = uf;
         }
 
         private void SetCidade(string cidade)

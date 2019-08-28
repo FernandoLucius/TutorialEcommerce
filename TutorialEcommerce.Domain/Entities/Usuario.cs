@@ -65,7 +65,7 @@ namespace TutorialEcommerce.Domain.Entities
             Guard.ForNullOrEmptyDefaultMessage(login, "Login");
             Guard.StringLength("Login", login, LoginMinValue, LoginMaxValue);
 
-            // Se tiver regras de negócio para o login, colocar aqui.
+            // Se tiver outras regras de negócio para o login, colocar aqui.
 
             Login = login;
         }
