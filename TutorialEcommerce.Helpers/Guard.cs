@@ -38,11 +38,11 @@ namespace TutorialEcommerce.Helpers
 
         public static void StringLength(string propName, string stringValue, int minimum, int maximum)
         {
-            StringLength(stringValue, minimum, maximum, propName + " deve ter de " + minimum + " à " + maximum + "caracteres.");
+            StringLength(stringValue, minimum, maximum, propName + " deve ter de " + minimum + " à " + maximum + " caracteres.");
         }
         public static void StringLength(string propName, string stringValue, int maximum)
         {
-            StringLength(stringValue, maximum, propName + " não pode ter mais que " + maximum + "caracteres.");
+            StringLength(stringValue, maximum, propName + " não pode ter mais que " + maximum + " caracteres.");
         }
         public static void StringLength(string stringValue, int maximum, string message)
         {
@@ -61,7 +61,7 @@ namespace TutorialEcommerce.Helpers
 
             if (length < minimum || length > maximum)
             {
-                throw new InvalidOperationException(message);
+                throw new Exception(message);
             }
         }
 
