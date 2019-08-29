@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj": {}
+    "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj": {
+    "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj",
         "projectName": "TutorialEcommerce.Helpers.Tests",
-        "projectPath": "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj",
-        "packagesPath": "C:\\Users\\fluciusg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\TutorialEcommerce.Helpers.Tests.csproj",
+        "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fluciusg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj": {
-                "projectPath": "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj"
+              "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj": {
+                "projectPath": "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj"
               }
             }
           }
@@ -44,26 +44,6 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.0.1, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            },
-            "xunit.runner.visualstudio": {
-              "target": "Package",
-              "version": "[2.4.0, )"
-            }
-          },
           "imports": [
             "net461"
           ],
@@ -72,12 +52,12 @@
         }
       }
     },
-    "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj": {
+    "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj",
         "projectName": "TutorialEcommerce.Helpers",
-        "projectPath": "C:\\Users\\fluciusg\\Desktop\\Projetos\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj"
+        "projectPath": "C:\\Users\\Fernando\\Desktop\\ProjetosC#\\TutorialEcommerce\\TutorialEcommerce.Helpers\\TutorialEcommerce.Helpers.csproj"
       },
       "frameworks": {
         "net472": {}
